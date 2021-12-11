@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Online.Shop.Business.Contracts\Online.Shop.Business.Contracts.csproj" />
+    <ProjectReference Include="..\Online.Shop.Business.Data\Online.Shop.Business.Data.csproj" />
+    <ProjectReference Include="..\Online.Shop.Core.Services\Online.Shop.Core.Services.csproj" />
+  </ItemGroup>
+
+</Project>
